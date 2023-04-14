@@ -1,0 +1,59 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+.btn-edit,
+.btn-delete,
+.btn-save,
+.btn-cancel,
+.btn-add{
+background-color: transparent;
+border: none;
+cursor: pointer;
+margin-left: 10px;
+font-size: 20px;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-save:hover,
+.btn-cancel:hover,
+.btn-add:hover {
+color: #ff4500;
+}
+
+.btn-edit:focus,
+.btn-delete:focus,
+.btn-save:focus,
+.btn-cancel:focus {
+outline: none;
+}
+
+.btn-edit {
+color: #4169e1;
+}
+
+.btn-delete {
+color: #ff0000;
+}
+
+.btn-save {
+color: #00ff00;
+}
+
+.btn-cancel {
+color: #808080;
+}
+
+.btn-add{
+  color: #4958a26;
+}
+
+hr {
+height: 1px;
+margin: 20px 0;
+background-color: #dcdcdc;
+border: none;
+}
